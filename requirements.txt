@@ -1,0 +1,19 @@
+# On Linux: install these dependencies
+libleptonica-dev
+tesseract-ocr
+tesseract-ocr-dev
+libtesseract-dev
+python3-pil
+tesseract-ocr-eng
+tesseract-ocr-script-latn
+fastapi
+uvicorn
+opency-python
+tesseract
+
+# On MacOS
+# brew install tesseract
+# bo file vie.traineddata vao cai duong dan brew (vi du cua t la: /opt/homebrew/Cellar/tesseract/5.3.3/share/tessdata/)
+
+# On Windows: download binary from this link https://github.com/UB-Mannheim/tesseract/wiki
+# then add pytesseract.pytesseract.tesseract_cmd = 'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe' to your script.
